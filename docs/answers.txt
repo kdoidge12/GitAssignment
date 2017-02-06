@@ -1,1 +1,17 @@
-Test
+a)
+Kris@Kris-PC MINGW64 ~ (master)
+$ git commit -m "Through console commit using git add GitAssignment/ and git commit -m msg"
+[master (root-commit) f026a45] Through console commit using git add GitAssignment/ and git commit -m msg
+ 10 files changed, 4153 insertions(+)
+ create mode 100644 GitAssignment/.gitignore
+ create mode 100644 GitAssignment/README.md
+ create mode 100644 GitAssignment/conf/ancientstaff.obj
+ create mode 100644 GitAssignment/conf/thechosenone.txt
+ create mode 100644 GitAssignment/docs/status.txt
+ create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/RoleGame.java
+ create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/BasicWeapon.java
+ create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/Sword.java
+ create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/Weapon.java
+ create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/WeaponFactory.java
+
+b)
