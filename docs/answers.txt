@@ -1,17 +1,39 @@
 a)
-Kris@Kris-PC MINGW64 ~ (master)
-$ git commit -m "Through console commit using git add GitAssignment/ and git commit -m msg"
-[master (root-commit) f026a45] Through console commit using git add GitAssignment/ and git commit -m msg
- 10 files changed, 4153 insertions(+)
- create mode 100644 GitAssignment/.gitignore
- create mode 100644 GitAssignment/README.md
- create mode 100644 GitAssignment/conf/ancientstaff.obj
- create mode 100644 GitAssignment/conf/thechosenone.txt
- create mode 100644 GitAssignment/docs/status.txt
- create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/RoleGame.java
- create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/BasicWeapon.java
- create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/Sword.java
- create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/Weapon.java
- create mode 100644 GitAssignment/src/edu/fsu/cs/cen4021/armory/WeaponFactory.java
+Kris@Kris-PC MINGW64 ~/IdeaProjects/GitAssignment (master)
+$ git push origin master
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (19/19), 3.79 KiB | 0 bytes/s, done.
+Total 19 (delta 0), reused 0 (delta 0)
+To https://github.com/kdoidge12/GitAssignment.git
+   d7281a6..efd0931  master -> master
 
 b)
+Using "git shortlog -s -n", I was able to find that I have done 3 commits, Javier has done 5, Ephryas has done 1,
+and 3 were done by CEN5035-4021-FSU.
+
+c)
+2016-09-15 at 10:29:34. I used the command "gitk .gitignore".
+
+d)
+There was only one modification done in the SRC folder to src/RoleGame.Java . However a bunch of renames
+and deletes were performed. I used "git log --name-status -p src/".
+
+e)
+git log : Shows the commit logs.
+
+git status : Shows the working tree status.
+
+Git log shows us the commits done on the repository where as git status lets you know whether or not
+files have been changed/modified/created before a push.
+
+f)
+git log --follow --all */RoleGame.java
+
+g)
+git log --all --grep='file'
+
+h)
+git log --author=Alice --before='09/16/2016' --after='09/01/2016'
+
